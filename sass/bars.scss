@@ -3,17 +3,30 @@
 // --------------------------------------------------
 
 .toolbar {
-  min-height: 22px;
+  min-height: 28px;
   box-shadow: inset 0 1px 0 #f5f4f5;
-  @include linear-gradient(#e8e6e8, #d1cfd1);
+  @include linear-gradient(#f5f1ef, #f5f1ef);
   @include clearfix;
 }
 
 .toolbar-header {
+  -webkit-app-region: drag;
+
   border-bottom: 1px solid $dark-border-color;
 
   .title {
     margin-top: 1px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.24rem 0;
+  }
+
+  .btn {
+    background-color: transparent;
+  }
+
+  .btn.active {
+    background-color: #e9e8e6;
   }
 }
 

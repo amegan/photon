@@ -3,8 +3,9 @@
 // --------------------------------------------------
 
 .btn {
-  display: inline-block;
-  padding: 3px 8px;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 7px;
   margin-bottom: 0;
   font-size: 12px;
   line-height: 1.4;
@@ -15,7 +16,7 @@
   background-image: none;
   border: 1px solid transparent;
   border-radius: $default-border-radius;
-  box-shadow: 0 1px 1px rgba(0,0,0,.06);
+//   box-shadow: 0 1px 1px rgba(0,0,0,.06);
   -webkit-app-region: no-drag;
 
   &:focus {
@@ -39,15 +40,17 @@
 
 // Normal buttons
 .btn-default {
-  color: $gray-color;
-  border-top-color: $dark-border-color;
-  border-right-color: $dark-border-color;
-  border-bottom-color: $darker-bottom-border-color;
-  border-left-color: $dark-border-color;
-  @include linear-gradient(#fcfcfc, #f1f1f1);
+//   color: $gray-color;
+//   border-top-color: $dark-border-color;
+//   border-right-color: $dark-border-color;
+//   border-bottom-color: $darker-bottom-border-color;
+//   border-left-color: $dark-border-color;
+//   @include linear-gradient(#fcfcfc, #f1f1f1);
+//   background-color: transparent;
+  background-color: #fff;
 
   &:active {
-    background-color: #ddd;
+    background-color: #E8E8E6;
     background-image: none;
   }
 }
@@ -63,13 +66,19 @@
 
 // For primary buttons
 .btn-primary {
-  border-color: #388df8;
-  border-bottom-color: darken(#388df8, 15%);
-  @include linear-gradient(#6eb4f7, #1a82fb);
+//   border-color: #388df8;
+//   border-bottom-color: darken(#388df8, 15%);
+//   @include linear-gradient(#ffffff, #007AFF);
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.00) 100%), #007AFF;
+  box-shadow: 0px 0px 0px 0.5px rgba(0, 122, 255, 0.12), 0px 1px 2.5px 0px rgba(0, 122, 255, 0.24);
 
   &:active {
     @include linear-gradient(darken(#6eb4f7, 10%), darken(#1a82fb, 10%));
   }
+}
+
+.btn-secondary {
 }
 
 // For positive buttons
@@ -108,12 +117,12 @@
 // Icons in buttons
 .btn .icon {
   float: left;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 22px;
   margin-top: 1px;
   margin-bottom: 1px;
   color: #737475;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1;
 }
 

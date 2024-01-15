@@ -26,8 +26,10 @@ $chrome-color:  #fff !default;
 $gray-color: #333 !default;
 
 // Borders
-$border-color: #ddd !default;
-$dark-border-color: #c2c0c2 !default;
+// $border-color: #ddd !default;
+$border-color: #e6e6e6 !default;
+// $dark-border-color: #c2c0c2 !default;
+$dark-border-color: #c7c9d1 !default;
 $darker-bottom-border-color: #a19fa1 !default;
 $toolbar-border-color: #939293 !default;
 
@@ -48,7 +50,7 @@ $focus-input-color: lighten($primary-color, 10%)  !default;
 // --------------------------------------------------
 
 // Border radius
-$default-border-radius: 4px;
+$default-border-radius: 5px;
 
 // Padding
 $padding: 10px;
