@@ -1,3 +1,15 @@
+# Updated Photon style
+
+## Changes
+* Visual looks closer to 2023-24 version
+* Updates packages to be able to build
+* Still no dark theme support
+* Icons are still the same, please find nice web icons by yourselves.
+* Minor fix on the doc
+
+Below is the original doc
+-----
+
 # [Photon](http://photonkit.com/)
 
 [![Build Status](https://img.shields.io/travis/connors/photon/master.svg)](https://travis-ci.org/connors/photon)
