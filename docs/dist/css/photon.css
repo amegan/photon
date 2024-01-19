@@ -313,7 +313,8 @@ h6 {
 }
 
 .sidebar {
-  background-color: #e1e1e0;
+  padding: 13px 10px 0 10px;
+  background-color: #f0f0f0;
 }
 
 .draggable {
@@ -516,7 +517,6 @@ h6 {
 }
 
 .toolbar-header {
-  -webkit-app-region: drag;
   border-bottom: 1px solid #c7c9d1;
 }
 .toolbar-header .title {
@@ -748,12 +748,12 @@ img {
 }
 
 .nav-group {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .nav-group-item {
-  padding: 2px 0px 2px 6px;
-  display: block;
+  padding: 4px 8px;
+  display: flex;
   color: #333;
   text-decoration: none;
   white-space: nowrap;
@@ -769,7 +769,7 @@ img {
   width: 19px;
   height: 18px;
   float: left;
-  color: #737475;
+  color: #3b99fc;
   margin-top: -3px;
   margin-right: 7px;
   font-size: 18px;
@@ -778,7 +778,7 @@ img {
 
 .nav-group-title {
   margin: 0;
-  padding: 10px 16px 2px;
+  padding: 3px 12px 6px 8px;
   font-size: 11px;
   font-weight: 500;
   color: #a6a6a6;
