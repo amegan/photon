@@ -3,7 +3,12 @@
 // --------------------------------------------------
 
 .nav-group {
+  margin: 0 10px;
   font-size: 13px;
+}
+
+.nav-group:first-child {
+  margin-top: 13px;
 }
 
 .nav-group-item {
